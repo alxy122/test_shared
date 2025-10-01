@@ -7,3 +7,6 @@ class Animal:
 
     def info(self) -> str:
         return f"This is an animal named {self.name}."
+
+    def sleep(self) -> str:
+        return f"{self.name} is sleeping."
